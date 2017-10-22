@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*general stuff*/
+body {
+	width: 100%;
+	height: 100%;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background-image: url("../Images/bakerybackground.png");	
+}
+
+h1, h2, h3, h4, h5, li {
+	color: white;
+}
+
+p {
+	text-align: center;
+	padding-left: 12%;
+	padding-right: 12%;
+	color: white;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited { 
+	text-decoration: none;
+	color: white;
+}
+/*end general stuff*/
+
+/*bun bun bakeshop title*/
+#header {
+	color: white;
+	background: rgba(55, 140, 144, 0.7);
+	padding-top: 0.2%;	
+	padding-bottom: 0.2%;
+	padding-left: 2%;
+	margin-left: -1%;
+	margin-top: 1%;
+	width: 23%;
+	display: inline-block;
+	float:left;
+}
+
+.bakedGoods li {
+	display:inline-block;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.bakedGoods li a, p {
+	display: block;
+}
+
+.bakedGoods li img {
+	width: 120px;
+	height: 120px;
+}
+
+/*My cart page*/
+table {
+	width: 80%;
+	margin-top:3%;
+	margin-left: 10%;
+	color: white;
+	text-align: left;
+	padding-left: 0%;
+	padding-right: 0%;
+	
+}
+#main td {
+	height: 40px;
+	padding-left: 2%;
+}
+
+#main th {
+	background-color:rgba(168, 221, 225, 0.5); 
+	font-size: 18px;
+	height: 50px;
+	padding-left: 2%;
+}
+
+tr:nth-child(odd) {
+	background-color:rgba(91, 139, 139, 0.5);
+}
+
+tr:nth-child(even) {
+	background-color:rgba(33, 90, 94, 0.3);	
+}
+/*end My cart page */
+
+
+/*main block of about us, catering, find us pages */
+#main {
+	display:inline-block;
+	float:right;
+	background: rgba(1, 82, 91, 0.70);
+	width: 72%;
+	margin-top: 1%;
+	padding-bottom: 5%;
+	margin-bottom: 10%;
+	height: 610px;
+}
+
+#main h1 {
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#main h3{
+	text-align: center;
+}
+
+.bakery {
+	display: block;
+	margin: auto;
+	padding-top:4%;
+	padding-bottom: 4%;
+	height:278.5px;
+	width:637.5px;
+}
+
+#mainImg {
+	float: left;
+	padding-left: 12%;
+	padding-top: 4%;
+	height: 350px;
+	width: 350px;
+}
+/*end main block of about us, catering, find us pages */
+
+
+/*info under bun bun bakeshop title*/
+#info {
+	float:left;
+	display: inline-block;
+	background:rgba(1, 82, 91, 0.70);
+	width: 25%;
+	margin-left: -1%;
+}
+
+#info ul {
+	list-style-type: none;
+	padding-left: 8%;
+	padding-bottom: 5%;
+}
+
+#info li {
+	float: left;
+	padding-right: 13%;
+}
+/*end info under bun bun bakeshop title*/
+
+
+/*navigation bar*/
+#navbar {
+	background: rgba(55, 140, 144, 0.7);	
+	padding-left: 2%;
+	margin-left: -1%;
+	width: 23%;
+	padding-bottom: 1%;
+	display: inline-block;
+	float: left;
+}
+
+#navbar ul {
+	list-style-type: none;
+	font-size: 30px;
+	padding-left: 1%;
+	margin-top: 2%;
+}
+
+#navbar li {
+	padding-top: 10%;
+	margin-bottom: 5%;	
+}
+
+#navbar a:hover {
+	font-weight:600;
+}
+
+#navbar a.active {
+	font-weight:700;
+	color: darkslategray;
+}
+/*end of navigation bar*/
+
+
+/*online shop listings*/
+.buns li a:hover {
+	color: darkgray;
+}
+
+.buns {
+	margin-left: 3%;	
+}
+
+.buns li {
+	list-style-type: none;
+	float: left;
+	padding-right: 3%;
+	padding-left:3%;
+}
+/*end online shop listings*/
+
+
+/*product detail page*/
+#descrip {
+	display: inline-block;
+	text-align: center;
+	width: 50%;	
+	
+}
+
+#descrip h2 {
+	padding-left: 25%;
+	padding-right: 10%;
+	text-align:left;
+}
+
+#descrip h3 {
+	padding-left: 25%;
+	padding-right: 10%;
+	text-align:left;
+	font-weight: normal;
+}
+
+#addCart {
+	display: inline-block;
+	float:left;
+	text-align: center;	
+	color: white;
+	background-color: rgba(55, 140, 144, 1);
+	font-size: 18px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin-top: 7%;
+	margin-bottom: 2%;
+	margin-left: 37%;
+	border-radius: 6px;
+	border: 2px solid white;
+	width: 20%;
+}
+
+/*dropdowns*/
+#price {
+	float: left;
+	padding-top: 5%;
+	padding-left: 37%;
+	size: 30px;
+	color: white;
+	font-weight: bold;
+}
+#type h2 {
+	padding-left: 37%;
+	
+}
+
+.entry {
+	display: inline;
+	padding-left: 5%;
+}
+
+h4 {
+	text-align:left;
+	padding-left: 37%;
+}
+/*end of dropdowns*/
+/*end product detail page*/
+
+
+/* social media logos in bottom left corner*/
+#logos {
+	display: inline-block;
+	float: left;
+	padding-top: 3%;
+	padding-left: 1%;
+	width: 20%;
+}
+
+.facebook {
+	padding-right: 4%;
+}
+
+.twitter {
+	padding-right: 4%;
+}
+/* end social media logos in bottom left corner*/
+
+
+

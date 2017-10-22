@@ -7,17 +7,30 @@
 <script type="text/javascript" src="JS/main.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/style2.css">
 </head>
-<body>                           
+<body>      
+<!--title in left corner-->
 	<div id="header"> 	
 		 <h1><a href="index.html">Bun Bun Bake Shop</a></h1>
 	</div>
+<!--my cart table-->
 		<div id="main">
-			<h1>About Us</h1>
-				<img src="Images/bakery.png" alt="bakery" class="bakery"/> 
-<!--http://pikeplacemarket.org/bakery-cafe-->
-					<p>Welcome to Bun Bun Bake Shop! We are an artisinal bakery that specializes in homemade cinnamon rolls. We offer a variety of modern and classic flavors, as well as vegan and gluten-free options. Our shop is located in Pittsburgh, Pennsylvania. Not from the area? No problem! We ship our buns nationwide overnight to ensure freshness. Bun Bun Bake Shop also provides catering services to  make your next event a breeze!</p>
+			<h1>My Cart</h1>
+
+				<table>
+					<tbody class="cartTable">
+						<tr class="titles">
+							<th>Flavor</th>
+							<th></th>
+							<th></th>
+							<th>Package Type</th>
+							<th>Price</th>
+						</tr>		
+					</tbody>		
+				</table>	
+			<div id="container">
+			</div>
 		</div>
-<!--info under bun bun title-->
+<!--info under page titl-->
 		<div id="info">
 			<ul>
 				<li>open daily 7am-7pm</li>
@@ -27,18 +40,19 @@
 <!--nav bar-->
 		<div id="navbar">	
 			<ul>
-				<li><a class="active" href="index.html">About Us</a></li>
+				<li><a href="index.html">About Us</a></li>
 				<li><a href="onlineshop.html">Online Shop</a></li>
-				<li><a href="mycart.html" id="cart-length">My Cart </a></li>
+				<li><a class="active" href="mycart.html" id="cart-length">My Cart </a></li>
 				<li><a href="catering.html">Catering</a></li>
 				<li><a href="findus.html">Find Us</a></li>
-			</ul>	
-		</div>	  
-<!--social media logos-->
+			</ul>
+		</div>
+<!--social media logos in the bottom left-->
 		<div id="logos">
 				<a href="https://www.facebook.com"><img src="Images/facebook.png" width="60" height="60" alt="facebook" class="facebook"></a>
 				<a href="https://www.twitter.com"><img src="Images/twitter.png" width="60" height="60" alt="twitter"></a>
 		</div>
+     
 </body>
 </html>
 
